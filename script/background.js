@@ -17,3 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
         image.addEventListener("click", changeBackgroundColor);
     }
 });
+
+const backButton = document.getElementById("back-desk");
+if (backButton) {
+    backButton.addEventListener("click",() => {
+        window.location.href = "index.html";
+    });
+}
