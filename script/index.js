@@ -1,7 +1,6 @@
 document.getElementById("complete-btn").addEventListener("click", function(event){
     alert("Board Updated successfully");
     event.preventDefault();
-
     const task = document.getElementById("task");
     const newTask = parseInt(task.textContent);
     if( newTask > 0) {
